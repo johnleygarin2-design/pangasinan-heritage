@@ -1,5 +1,5 @@
 import HeritageCard from "../molecules/HeritageCard";
-import heritageSites from "../../data/heritageSites";
+import heritageSites from "../../data/heritageSites.js";
 
 export default function HeritageGrid({
   sites = heritageSites,

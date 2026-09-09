@@ -3,7 +3,7 @@
 import { useState } from "react";
 import SearchForm from "../molecules/SearchForm";
 import HeritageGrid from "./HeritageGrid";
-import heritageSites from "../../data/heritageSites";
+import heritageSites from "../../data/heritageSites.js";
 
 export default function HeritageExplorer() {
   const [query, setQuery] = useState("");
