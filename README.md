@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pangasinan Heritage Digital Showcase
 
-## Getting Started
+## Project Title
 
-First, run the development server:
+Pangasinan Heritage Digital Showcase
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Student Name
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Garin, John Ley J.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Selected Framework
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Next.js
 
-## Learn More
+## Project Description
 
-To learn more about Next.js, take a look at the following resources:
+The Pangasinan Heritage Digital Showcase is a mobile-first static website designed to promote cultural awareness and tourism by presenting selected heritage and tourist destinations in Pangasinan.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The website features information about iconic destinations such as Hundred Islands in Alaminos, Bolinao Lighthouse, and Balungao Hot Spring.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Architecture
 
-## Deploy on Vercel
+The project follows the Atomic Design methodology:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Atoms
+* Molecules
+* Organisms
+* Templates
+* Pages
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Technologies Used
+
+* Next.js
+* React
+* TypeScript
+* HTML
+* CSS
+* GitHub Pages
+
+## Static Site Generation
+
+The website uses Next.js Static Site Generation and is configured for static export for deployment through GitHub Pages.
+
+## Live Website
+
+[GitHub Pages URL]
+
+## GitHub Repository
+
+[GitHub Repository URL]
