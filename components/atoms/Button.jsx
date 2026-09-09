@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Button({
   children,
   href = "#",
@@ -11,7 +13,7 @@ export default function Button({
   };
 
   return (
-    <a
+    <Link
       href={href}
       className={`
         inline-flex
@@ -33,6 +35,7 @@ export default function Button({
       `}
     >
       {children}
-    </a>
+    </Link>
   );
 }
+
