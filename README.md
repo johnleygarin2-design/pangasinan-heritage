@@ -43,8 +43,8 @@ The website uses Next.js Static Site Generation and is configured for static exp
 
 ## Live Website
 
-[GitHub Pages URL]
+https://johnleygarin2-design.github.io/pangasinan-heritage/
 
 ## GitHub Repository
 
-[GitHub Repository URL]
+johnleygarin2-design/pangasinan-heritage
