@@ -31,7 +31,7 @@ export default function HeritageDetail({ site }) {
       <section className="relative h-[55vh] min-h-[380px]">
 
         <Image
-          src={site.image}
+           src={`/pangasinan-heritage${site.image}`}
           alt={`View of ${site.name}`}
           fill
           priority

@@ -28,8 +28,8 @@ export default function HeritageCard({
     >
       {/* Image */}
       <div className="relative h-56 w-full overflow-hidden">
-        <Image
-          src={image}
+       <Image
+  src={`/pangasinan-heritage${image}`}
           alt={`${name} in ${location}`}
           fill
           sizes="
