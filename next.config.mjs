@@ -1,15 +1,17 @@
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
   output: "export",
 
-  basePath: "/pangasinan-heritage",
-
-  trailingSlash: true,
+  basePath:
+    process.env.NODE_ENV === "production"
+      ? "/pangasinan-heritage"
+      : "",
 
   images: {
     unoptimized: true,
   },
+
+  trailingSlash: true,
 };
 
 export default nextConfig;
