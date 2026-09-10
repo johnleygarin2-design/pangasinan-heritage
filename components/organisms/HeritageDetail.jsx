@@ -31,13 +31,13 @@ export default function HeritageDetail({ site }) {
       <section className="relative h-[55vh] min-h-[380px]">
 
         <Image
-           src={`/pangasinan-heritage${site.image}`}
-          alt={`View of ${site.name}`}
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
+  src={`/pangasinan-heritage${site.image}`}
+  alt={`View of ${site.name}`}
+  fill
+  priority
+  sizes="100vw"
+  className="object-cover"
+/>
 
         <div
           className="absolute inset-0 bg-black/45"

@@ -8,6 +8,8 @@ export default function HeritageCard({
   image,
   href,
 }) {
+  const imagePath = `/pangasinan-heritage${image}`;
+
   return (
     <article
       className="
@@ -26,10 +28,9 @@ export default function HeritageCard({
         hover:shadow-lg
       "
     >
-      {/* Image */}
       <div className="relative h-56 w-full overflow-hidden">
-       <Image
-  src={`/pangasinan-heritage${image}`}
+        <Image
+          src={imagePath}
           alt={`${name} in ${location}`}
           fill
           sizes="
@@ -46,9 +47,7 @@ export default function HeritageCard({
         />
       </div>
 
-      {/* Content */}
       <div className="flex flex-1 flex-col p-5">
-
         <p className="mb-2 text-sm font-semibold text-emerald-700">
           {location}
         </p>
@@ -66,7 +65,6 @@ export default function HeritageCard({
             Learn More
           </Button>
         </div>
-
       </div>
     </article>
   );
