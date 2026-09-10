@@ -49,7 +49,7 @@ export default function HomePage() {
                 </Button>
 
                 <Button
-                  href="/about"
+                  href="{`${basePath}/about"
                   variant="secondary"
                 >
                   About the Showcase
