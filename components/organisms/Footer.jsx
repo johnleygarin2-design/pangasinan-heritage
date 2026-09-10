@@ -24,21 +24,21 @@ export default function Footer() {
             <div className="mt-3 flex flex-col gap-2 text-sm">
 
               <a
-                href="/"
+                href="/pangasinan-heritage"
                 className="hover:underline"
               >
                 Home
               </a>
 
               <a
-                href="/heritage"
+                href="/pangasinan-heritage/heritage"
                 className="hover:underline"
               >
                 Heritage Sites
               </a>
 
               <a
-                href="/about"
+                href="/pangasinan-heritage/about"
                 className="hover:underline"
               >
                 About

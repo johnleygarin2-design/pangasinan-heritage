@@ -17,7 +17,7 @@ export default function HeaderNavigation() {
 
         {/* Logo */}
         <a
-          href="/"
+          href=""
           onClick={closeMenu}
           className="
             text-base
@@ -82,21 +82,21 @@ export default function HeaderNavigation() {
           <div className="flex flex-col gap-1 md:flex-row md:items-center md:gap-2">
 
             <NavigationItem
-              href="/"
+              href="/pangasinan-heritage"
               onClick={closeMenu}
             >
               Home
             </NavigationItem>
 
             <NavigationItem
-              href="/heritage"
+              href="/pangasinan-heritage/heritage"
               onClick={closeMenu}
             >
               Heritage
             </NavigationItem>
 
             <NavigationItem
-              href="/about"
+              href="/pangasinan-heritage/about"
               onClick={closeMenu}
             >
               About
