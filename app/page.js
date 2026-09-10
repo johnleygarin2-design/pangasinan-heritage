@@ -49,7 +49,7 @@ export default function HomePage() {
                 </Button>
 
                 <Button
-                  href="{`${basePath}/about"
+                  href="/pangasinan-heritage/about"
                   variant="secondary"
                 >
                   About the Showcase
