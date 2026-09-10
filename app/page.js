@@ -11,7 +11,7 @@ export default function HomePage() {
       <section className="relative min-h-[75vh] overflow-hidden">
 
         <Image
-          src="/images/hundred-islands.jpg" 
+          src={'{`${basePath}/images/hundred-islands.jpg'} 
           alt="Scenic view of Hundred Islands in Pangasinan"
           fill
           priority
