@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Button({
   children,
-  href = "#",
+  href = "/pangasinan-heritage",
   variant = "primary",
 }) {
   const variants = {
